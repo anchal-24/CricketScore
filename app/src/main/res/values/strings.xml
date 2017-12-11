@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CricketScore</string>
+    <string name="r1">0</string>
+    <string name="r2">0</string>
+    <string name="r3">0.0</string>
+    <string name="R1">RUNS</string>
+    <string name="R2">WICKETS</string>
+    <string name="R3">OVERS</string>
+    <string name="H1.1">Enter Match Details</string>
+    <string name="H1.2">Team Name</string>
+    <string name="H1.3">Number of Players</string>
+    <string name="H1.4">Number of Overs</string>
+    <string name="B1.1">NEXT</string>
+    <string-array name="no_p">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string name="h1.1">Enter name</string>
+    <string name="h1.2">Enter number of players (2 - 11)</string>
+    <string name="h1.3">Enter number of overs</string>
+    <string name="Team_name">Not Yet Entered</string>
+    <string name="H2.1">Enter Player Details</string>
+    <string name="H2.2">Player Name</string>
+    <string name="H2.3">Player Age</string>
+    <string name="H2.4">Player Type</string>
+    <string name="h2.1">Enter name</string>
+    <string name="h2.2">Enter Age</string>
+    <string name="h2.3">Enter Type</string>
+    <string name="win">Winner</string>
+    <string name="runs">Runs</string>
+    <string name="balls">Balls</string>
+    <string name="sec">Runner Up</string>
+    <string name="mes">CONGRATULATIONS</string>
+    <string name="GameOver">Game Over</string>
+</resources>

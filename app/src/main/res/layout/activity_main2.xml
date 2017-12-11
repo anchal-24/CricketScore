@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anchalshukla.cricketscore.Main2Activity">
+
+    <TextView
+        android:id="@+id/H_1.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/H1.1"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/H_1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/H1.2"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H_1.1" />
+
+    <EditText
+        android:id="@+id/Team_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/h1.1"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H_1.2" />
+
+    <TextView
+        android:id="@+id/H_1.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/H1.3"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Team_Name" />
+
+    <TextView
+        android:id="@+id/H_1.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/H1.4"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Player_no" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/h1.3"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H_1.4" />
+
+    <Button
+        android:id="@+id/next_1"
+        android:layout_width="130dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginStart="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="B1"
+        android:text="@string/B1.1"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/RESET"
+        android:layout_width="130dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="B2"
+        android:text="RESET"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/Player_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/h1.2"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H_1.3" />
+
+</android.support.constraint.ConstraintLayout>
+
+
